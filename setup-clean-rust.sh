@@ -20,11 +20,25 @@
 # (c) jumpbit.com, 2021, Switzerland
 #-------------------------------------------------------------------------------
 
+# assuming initial setup is done as stated in https://linuxgsm.com/lgsm/rustserver/
+# assuming installed rustserver mods-install - install mod rustoxide
+# change the lgsm/config-lgsm/rustserver/common.cfg - especially the rcon pwd
+
+# environment
+export RUST=~/serverfiles
+
+# stop running server
+./rustserver stop
+
 # backup config
+./rustserver backup
+tar cvf rustserver-config.tar $RUST/oxide/config/* $RUST/server/rustserver/cfg/*cfg
 
-# install lgsm and rustserver with rustoxide mod through lgsm
+# update lgsm, rustserver and mod through lgsm
+./rustserver update-lgsm
+./rustserver update
+./rustserver mods-update
+./setup-rust-umods.sh
 
-# full wipe data
-
-# download mods
-wget https://umod.org/plugins/NoRaid.cs
+# start server
+./rustserver start

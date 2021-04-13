@@ -20,6 +20,9 @@
 # (c) jumpbit.com, 2021, Switzerland
 #-------------------------------------------------------------------------------
 
+# run as 'sh install.sh'
+
+# environment
 export RUST=/home/rustserver
 
 # install rust server manager scripts
