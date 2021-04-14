@@ -48,7 +48,7 @@ wget https://umod.org/plugins/VehicleLicence.cs
 wget https://umod.org/plugins/NTeleportation.cs
 wget https://umod.org/plugins/ZoneManager.cs
 wget https://umod.org/plugins/DynamicPVP.cs
-wget https://umod.org/plugins/UiPlus.cs
+wget https://umod.org/plugins/InfoPanel.cs
 wget https://umod.org/plugins/Welcomer.cs
 wget https://umod.org/plugins/FurnaceSplitter.cs
 wget https://umod.org/plugins/ImageLibrary.cs
@@ -56,6 +56,8 @@ wget https://umod.org/plugins/CraftingController.cs
 wget https://umod.org/plugins/AbsolutGifts.cs
 wget https://umod.org/plugins/Trade.cs
 wget https://umod.org/plugins/HelpText.cs
+wget https://umod.org/plugins/RemoverTool.cs
+wget https://umod.org/plugins/HitIcon.cs
 wget https://umod.org/plugins/DiscordChat.cs
 wget -O Oxide.Ext.Discord.dll https://umod.org/extensions/discord/download
 

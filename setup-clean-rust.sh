@@ -31,8 +31,8 @@ export RUST=~/serverfiles
 ./rustserver stop
 
 # backup config
-./rustserver backup
 tar cvf rustserver-config.tar $RUST/oxide/config/* $RUST/server/rustserver/cfg/*cfg
+./rustserver backup
 
 # update lgsm, rustserver and mod through lgsm
 ./rustserver update-lgsm
