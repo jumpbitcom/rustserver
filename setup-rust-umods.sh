@@ -55,7 +55,7 @@ wget https://umod.org/plugins/ImageLibrary.cs
 wget https://umod.org/plugins/CraftingController.cs
 wget https://umod.org/plugins/AbsolutGifts.cs
 wget https://umod.org/plugins/Trade.cs
-wget https://umod.org/plugins/HelpText.cs
+wget https://umod.org/plugins/ServerInfo.cs
 wget https://umod.org/plugins/RemoverTool.cs
 wget https://umod.org/plugins/HitIcon.cs
 wget https://umod.org/plugins/DiscordChat.cs

@@ -15,7 +15,7 @@
         {
           "Shortname": "ammo.pistol",
           "Skin": 0,
-          "Amount": 302,
+          "Amount": 100,
           "Condition": 0.0,
           "MaxCondition": 0.0,
           "Ammo": 0,
@@ -28,7 +28,7 @@
         {
           "Shortname": "lowgradefuel",
           "Skin": 0,
-          "Amount": 379,
+          "Amount": 250,
           "Condition": 0.0,
           "MaxCondition": 0.0,
           "Ammo": 0,
@@ -55,7 +55,7 @@
             {
               "Shortname": "lowgradefuel",
               "Skin": 0,
-              "Amount": 19,
+              "Amount": 30,
               "Condition": 0.0,
               "MaxCondition": 0.0,
               "Ammo": 0,
@@ -112,7 +112,7 @@
           "Shortname": "smg.mp5",
           "Skin": 0,
           "Amount": 1,
-          "Condition": 20.75,
+          "Condition": 100.0,
           "MaxCondition": 100.0,
           "Ammo": 30,
           "Ammotype": "ammo.pistol",
@@ -137,7 +137,7 @@
               "Shortname": "weapon.mod.silencer",
               "Skin": 0,
               "Amount": 1,
-              "Condition": 22.75,
+              "Condition": 100.0,
               "MaxCondition": 100.0,
               "Ammo": 0,
               "Ammotype": null,
@@ -165,7 +165,7 @@
           "Shortname": "salvaged.cleaver",
           "Skin": 0,
           "Amount": 1,
-          "Condition": 218.200043,
+          "Condition": 250.0,
           "MaxCondition": 250.0,
           "Ammo": 0,
           "Ammotype": null,
@@ -178,7 +178,7 @@
           "Shortname": "jackhammer",
           "Skin": 0,
           "Amount": 1,
-          "Condition": 174.199066,
+          "Condition": 300.0,
           "MaxCondition": 300.0,
           "Ammo": 0,
           "Ammotype": null,
@@ -191,7 +191,7 @@
           "Shortname": "axe.salvaged",
           "Skin": 0,
           "Amount": 1,
-          "Condition": 496.665955,
+          "Condition": 500.0,
           "MaxCondition": 500.0,
           "Ammo": 0,
           "Ammotype": null,
@@ -201,6 +201,88 @@
           "Contents": null
         }
       ]
+    },
+    "Monument": {
+      "Name": "Monument Kit",
+      "Description": "Needed for a monument loot run!",
+      "RequiredPermission": "",
+      "MaximumUses": 0,
+      "RequiredAuth": 0,
+      "Cooldown": 360,
+      "Cost": 500,
+      "IsHidden": false,
+      "CopyPasteFile": "",
+      "KitImage": "",
+      "MainItems": [
+        {
+          "Shortname": "keycard_blue",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "keycard_green",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "keycard_red",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "fuse",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        }
+      ],
+      "WearItems": [
+        {
+          "Shortname": "hazmatsuit",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        }
+      ],
+      "BeltItems": null
     }
   }
 }
