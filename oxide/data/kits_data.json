@@ -1,0 +1,206 @@
+{
+  "_kits": {
+    "Starter Kit": {
+      "Name": "Starter Kit",
+      "Description": "Starter",
+      "RequiredPermission": "",
+      "MaximumUses": 0,
+      "RequiredAuth": 0,
+      "Cooldown": 60,
+      "Cost": 0,
+      "IsHidden": false,
+      "CopyPasteFile": "",
+      "KitImage": "",
+      "MainItems": [
+        {
+          "Shortname": "ammo.pistol",
+          "Skin": 0,
+          "Amount": 302,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 18,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "lowgradefuel",
+          "Skin": 0,
+          "Amount": 379,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        }
+      ],
+      "WearItems": [
+        {
+          "Shortname": "hat.miner",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 6,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": [
+            {
+              "Shortname": "lowgradefuel",
+              "Skin": 0,
+              "Amount": 19,
+              "Condition": 0.0,
+              "MaxCondition": 0.0,
+              "Ammo": 0,
+              "Ammotype": null,
+              "Position": 0,
+              "Frequency": -1,
+              "BlueprintShortname": null,
+              "Contents": null
+            }
+          ]
+        },
+        {
+          "Shortname": "pants",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 5,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "hoodie",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 4,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "shoes.boots",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 0.0,
+          "MaxCondition": 0.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 3,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        }
+      ],
+      "BeltItems": [
+        {
+          "Shortname": "smg.mp5",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 20.75,
+          "MaxCondition": 100.0,
+          "Ammo": 30,
+          "Ammotype": "ammo.pistol",
+          "Position": 0,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": [
+            {
+              "Shortname": "weapon.mod.flashlight",
+              "Skin": 0,
+              "Amount": 1,
+              "Condition": 0.0,
+              "MaxCondition": 0.0,
+              "Ammo": 0,
+              "Ammotype": null,
+              "Position": 0,
+              "Frequency": -1,
+              "BlueprintShortname": null,
+              "Contents": null
+            },
+            {
+              "Shortname": "weapon.mod.silencer",
+              "Skin": 0,
+              "Amount": 1,
+              "Condition": 22.75,
+              "MaxCondition": 100.0,
+              "Ammo": 0,
+              "Ammotype": null,
+              "Position": 1,
+              "Frequency": -1,
+              "BlueprintShortname": null,
+              "Contents": null
+            }
+          ]
+        },
+        {
+          "Shortname": "icepick.salvaged",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 500.0,
+          "MaxCondition": 500.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 1,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "salvaged.cleaver",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 218.200043,
+          "MaxCondition": 250.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 2,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "jackhammer",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 174.199066,
+          "MaxCondition": 300.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 3,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        },
+        {
+          "Shortname": "axe.salvaged",
+          "Skin": 0,
+          "Amount": 1,
+          "Condition": 496.665955,
+          "MaxCondition": 500.0,
+          "Ammo": 0,
+          "Ammotype": null,
+          "Position": 4,
+          "Frequency": -1,
+          "BlueprintShortname": null,
+          "Contents": null
+        }
+      ]
+    }
+  }
+}
